@@ -1,3 +1,4 @@
+from config import *
 import cv2
 
 
@@ -5,7 +6,7 @@ import cv2
 class Video:
     def __init__(self):
         self.playing = False
-        self.video_path = './videos/flaminghott.mp4'
+        self.video_path = VIDEO_PATH + 'flaminghott.mp4'
 
 
     def play(self):
