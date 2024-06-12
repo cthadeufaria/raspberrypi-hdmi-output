@@ -54,9 +54,9 @@ Edit the config.py file to set the GPIO pins and the video file path:
 
 python
 
-# config.py
+config.py
 
-# Path to the video file
+Path to the video file
 VIDEO_PATH = "/path/to/your/video/"
 
 Usage
